@@ -1,0 +1,11 @@
+import math
+a=float(input("Enter the first side of the triangle: "))
+b=float(input("Enter the second side of the triangle: "))
+c=float(input("Enter the third side of the triangle: "))
+s=(a+b+c)/2
+m1=s-a
+m2=s-b
+m3=s-c
+m=s*m1*m2*m3
+area=math.sqrt(m)
+print("The area of the right angled triangle is ",area)
